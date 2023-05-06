@@ -1,0 +1,122 @@
+angular Shared library
+https://medium.com/@joosep.parts/create-an-angular-14-library-use-it-locally-when-developing-and-publish-the-package-to-npm-689ca2efdea8
+
+cdm
+cd angularTypedForm
+
+
+mkdir ngneat_formSharedLibrary && cd "$_"
+
+
+1. Creating the library
+
+    my-reactive-forms
+
+ng new my-reactive-forms-lib --create-application=false
+
+cd my-reactive-forms-lib
+
+ng generate library my-reactive-forms
+
+cd projects
+
+cd my-reactive-forms
+
+cd src/lib
+
+
+
+
+
+npm link
+ng build --watch
+
+
+
+my-reactive-forms/tsconfig.json
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2. Creating a demo app to consume the library
+
+Fire up another cmd (keep the library cmd running)
+
+cd ngneat_formSharedLibrary
+
+ng new my-reactive-forms-demo --defaults --skip-tests
+
+cd my-reactive-forms-demo
+
+
+cd my-reactive-forms/
+
+
+
+npm link
+
+npm install "..\my-reactive-forms-lib\dist\my-reactive-forms"
+
+
+
+Notice our libary was added to my-reactive-forms-demo/package.json
+
+"my-reactive-forms": "file:../my-reactive-forms-lib/dist/my-reactive-forms"
+
+To remedy this were going to tell Ivy instances apart.
+
+https://www.typescriptlang.org/tsconfig#preserveSymlinks
+
+To
+my-reactive-forms-demo/angular.json 
+add "preserveSymlinks": true
+
+To
+my-reactive-forms-demo/tsconfig.json in 
+compilerOptions we 
+add paths to let our demo app know where is the other stuff coming from and what node_modules should demo app itself use.
+
+my-reactive-forms.directive.ts
+
+
+
+projects/my-reactive-forms/src/lib/my-reactive-forms.module.ts
+
+
+
+#tsconfig.json compilerOptions paths
+
+
+
+my-reactive-forms-demo/src/app/app.module.ts
+
+
+
+ng serve
+
+
+ 
+https://github.com/Nurech/my-reactive-forms-demo
+
+https://github.com/Nurech/my-reactive-forms-lib
+
+https://www.npmjs.com/package/my-reactive-forms
+

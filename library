@@ -1,0 +1,77 @@
+https://sandroroth.com/blog/angular-library
+https://github.com/rothsandro/angular-library-example
+
+Angular 15
+
+cdm
+cd angularOther
+
+ 
+ng new ui-sdk-workspace --create-application false
+
+cd ui-sdk-workspace
+
+ng generate library @mycomp/ui-sdk
+
+cd projects/mycomp/ui-sdk
+
+
+
+projects/mycomp/ui-sdk/src/ui-sdk.module.ts
+import { NgModule } from '@angular/core';
+import { UiSdkComponent } from './ui-sdk.component';
+import { I18nModule } from '@mycomp/ui-sdk/i18n';
+
+
+?
+mkdir i18n && cd "$_"
+
+ng g pipe translate
+Could not find an NgModule. Use the '--skip-import' option to skip importing in NgModule.
+
+
+ng g pipe i18n/translate
+Could not find an NgModule. Use the '--skip-import' option to skip importing in NgModule.
+
+
+Run this command from the 'src/app' folder in the project
+
+ng g component payroll/PayrollDashboard --module=payroll/payroll.module.ts
+
+?
+
+rm -rf i18n
+
+
+
+projects/mycomp/ui-sdk/i18n/src/i18n.module.ts
+
+
+
+Could not find ngModule can be solved by passing --module=<path to app.module.ts>
+ng g c components/list-template --module=modules/app.module.ts
+
+ng g pipe i18n/translate --module=projects/mycomp/ui-sdk/src/ui-sdk.module.ts
+
+Specified module 'projects/mycomp/ui-sdk/src/ui-sdk.module.ts' does not exist.
+Looked in the following directories:
+    /projects/mycomp/ui-sdk/projects/mycomp/ui-sdk/src/ui-sdk.module.ts
+    /projects/mycomp/ui-sdk/projects/mycomp/ui-sdk/src
+    /projects/mycomp/ui-sdk/projects/mycomp/ui-sdk
+    /projects/mycomp/ui-sdk/projects/mycomp
+    /projects/mycomp/ui-sdk/i18n/translate
+    /projects/mycomp/ui-sdk/projects
+    /projects/mycomp/ui-sdk/i18n
+    /projects/mycomp/ui-sdk
+    projects/mycomp/ui-sdk
+    /projects/mycomp
+    /projects
+
+
+ng generate --module Specified module 
+
+
+
+
+npm run build
+

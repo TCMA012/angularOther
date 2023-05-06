@@ -1,0 +1,88 @@
+angular Shared library
+https://medium.com/@joosep.parts/create-an-angular-14-library-use-it-locally-when-developing-and-publish-the-package-to-npm-689ca2efdea8
+
+
+cdm
+cd angularOther
+
+ 
+mkdir IdeaProjects2 && cd "$_"
+
+
+1. Creating the library
+cd IdeaProjects2
+
+ng new ngx-everything-uppercase-lib --create-application=false
+
+cd ngx-everything-uppercase-lib
+ng generate library ngx-everything-uppercase
+
+npm link
+ng build --watch
+
+
+
+ngx-everything-uppercase/tsconfig.json
+
+
+
+
+
+2. Creating a demo app to consume the library
+
+Fire up another cmd (keep the library cmd running)
+
+cd IdeaProjects2
+ng new ngx-everything-uppercase-demo --defaults
+
+cd ngx-everything-uppercase-demo
+
+npm link
+
+npm install "..\ngx-everything-uppercase-lib\dist\ngx-everything-uppercase"
+
+
+
+Notice our libary was added to ngx-everything-uppercase-demo/package.json
+
+"ngx-everything-uppercase": "file:../ngx-everything-uppercase-lib/dist/ngx-everything-uppercase"
+
+To remedy this were going to tell Ivy instances apart.
+
+https://www.typescriptlang.org/tsconfig#preserveSymlinks
+
+To
+ngx-everything-uppercase-demo/angular.json 
+add "preserveSymlinks": true
+
+To
+ngx-everything-uppercase-demo/tsconfig.json in 
+compilerOptions we 
+add paths to let our demo app know where is the other stuff coming from and what node_modules should demo app itself use.
+
+ngx-everything-uppercase.directive.ts
+
+
+
+projects/ngx-everything-uppercase/src/lib/ngx-everything-uppercase.module.ts
+
+
+
+#tsconfig.json compilerOptions paths
+
+
+
+ngx-everything-uppercase-demo/src/app/app.module.ts
+
+
+
+ng serve
+
+
+ 
+https://github.com/Nurech/ngx-everything-uppercase-demo
+
+https://github.com/Nurech/ngx-everything-uppercase-lib
+
+https://www.npmjs.com/package/ngx-everything-uppercase
+
