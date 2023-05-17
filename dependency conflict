@@ -1,0 +1,15 @@
+resolving dependency conflicts
+npm outdated
+Lists all of your dependencies that are considered out of date by something else, with the 
+first column being what it wants, and the 
+second being the very latest version available. I try to keep 
+all dependencies at the 
+“wanted” version. You may have to run it several times as you update things because the list will change. 
+
+You can also just go wild and use 
+“NG update” to update everything at once.
+
+If for some reason that isn’t working, I just run 
+npm install
+ and check the conflict messages to resolve. Sometimes I have dependencies that I can’t update because of license issues or a secondary dependency. At that point any changes to my 
+package json are just going to include —legacy-peer-deps

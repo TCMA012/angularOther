@@ -1,0 +1,21 @@
+Full stack starter repo with Angular
+A Full Stack Typescript Starter with Nrwl/NX, Angular 15, NgRx, Node, Google Cloud Provider services, and Web3
+Typescript, Node, Firebase, Angular, NgRx / platform, Nrwl/Nx, Web3 codebase containing real-world examples that adhere to best practices enabling enterprise-grade production
+
+This codebase was created to demonstrate fully fledged full-stack applications built with Typescript, Node, Firebase, Angular, NgRx/platform, Nrwl/Nx, and Web3. We've gone to great lengths to adhere to the community style guides & best practices while providing real-world examples: CRUD, authentication, routing, advanced patterns, architecture, blockchain integration, documentation, and more.
+
+https://www.reddit.com/r/Angular2/comments/13isp0j/full_stack_starter_repo_with_angular/
+
+Github: https://github.com/Flignats/full-stack-typescript
+
+Demo: https://fullstacktypescript.app/about
+
+Documentation: https://fullstacktypescript.app/documentation
+
+Gitbook documentation: https://flignats.gitbook.io/full-stack-typescript/
+
+by @TheRealFlignats
+
+
+
+motto, maxamillian, papa, fireship
