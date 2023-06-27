@@ -1,0 +1,4 @@
+Code Shots With Profanis
+use the RxJS interop library to convert an Observable source to a Signal, by creating a Material Typeahead
+https://www.youtube.com/watch?v=UG7F35ix0ec
+https://github.com/profanis/codeShotsWithProfanis/tree/55/signals-typeahead-material
