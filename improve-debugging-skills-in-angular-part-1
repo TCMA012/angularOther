@@ -1,0 +1,6 @@
+https://www.decodedfrontend.io/improve-debugging-skills-in-angular-part-1/
+Angular DevTools is a Chrome DevTools extension that is downloaded from the Chrome Web Store
+
+JSON pipe: “Converts a value into its JSON-format representation.
+
+We are able to configure extra options for RouterModule that can help us in the debugging process. The specific one we are interested in is called enableTracing. If we set it to true it logs all internal navigation events to the console. 
