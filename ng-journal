@@ -1,1 +1,44 @@
 ng-journal.com
+https://github.com/HaasStefan/ng-journal-insurance-portal
+The app is an insurance portal for managing claims, contracts, customers and complaints.
+    Nx
+
+    Nx Generators
+
+    Improved Enterprise Monorepo Pattern
+
+    Angular 16
+
+    Signals
+
+    Route-based Inputs
+
+    Standalone APIs
+
+    Facade Pattern
+
+    OnPush
+
+    PrimeNG
+
+If you are not familiar with Nx and the Enterprise Monorepo Pattern, you can watch this video explaining it using this repo: 
+https://www.youtube.com/watch?v=FtmtNP6qNis&ab_channel=StefanHaas
+
+Combining nx generators is super simple btw because a generator is just a function which is composable of other generators
+
+lack of internationalization.
+usually I would use transloco for that
+
+But is transloco enterprise per say? I tried weblate and that worked well for devs but nondevs had trouble using it. But it allowed multi repo sharing and access etc...
+
+sure, why not. In my opinion it is the 
+best alternative to ngx translate which is not being maintained anymore. Therefore it would be my goto, plus nice little features like translation scopes
+
+
+
+For the most part it’s fine but I wouldn’t call it enterprise. The main reason is you have no error management. It’s pretty but fragile.
+
+Also what you are referring as the facade pattern is the repository pattern.
+
+
+
