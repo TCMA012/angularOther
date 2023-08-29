@@ -1,0 +1,18 @@
+don't always need RxJS for API calls. You can make your code easier to understand and debug by using promises with `firstValueFrom` and `async/await`. Reserve RxJS for situations where you need real-time updates, like ReactiveForms and socket operations.
+
+don't have to create a separate service for every API call. Instead, you can create a common HTTP service with standard methods like GET, POST, PUT, and DELETE. This can save you a lot of time and effort compared to having a separate API service for each module.
+http.service.ts
+https://gist.github.com/jagdishjadeja/ddcf794b0b45b2ad0e10c578b13da8c1
+
+knowing how to build dynamic forms with reactive forms is a game changer.
+
+
+
+
+I use point 2 for every project. Very important, especially to use catchError in a common place and for any other common modifications like overriding the default http Params objects from Angular's custom logic to Javascript's encodeUriComponent.
+
+Point 1 though: I've reached out to await lastValueFrom(...) sometimes during fixing bugs in existing code, where a rewrite is risky and e2e tests will change anyway due to new behaviour or missing edge case. But I would immediately raise an enhancement "refactoring" bug, because converting observables to promises is an extra operation we don't need. API calls don't need to be unsubscribed from anyway since they emit once and complete, so there's no particular benefit of converting to promise.
+
+Point 3 is very useful, but I've seen multiple bad attempts which don't scale well (developer fault) and in each case there might be a one-off unique UI component suggested by the UX team instead of using existing components (e.g. custom checkbox group, grouped inputs in particular non-standard layouts, etc). My team has one such old implementation with ngmodel, but reactive forms can't solve a management/design problem. Way too escape hatches have been allowed and are being maintained at this point, so newer forms (with multiple nested sections) are written manually with reactive forms and some type utilities to convert from source interface to formcontrol/formgroup interfaces. Someone was using this for the login page, and loading every alternative component without lazy loading or deferring.
+
+I would love to use a well-maintained one, but only if there is an agreement with the design team.
