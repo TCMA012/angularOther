@@ -1,25 +1,38 @@
+cdm
+cd angularOther
+mkdir ngjournal
+cd ngjournal
+
 ng-journal.com
+
 https://github.com/HaasStefan/ng-journal-insurance-portal
 The app is an insurance portal for managing claims, contracts, customers and complaints.
-    Nx
 
-    Nx Generators
+npm install
+nx serve api (serves a local NestJS backend)
+nx serve insurance-portal -o (serves the Angular app)
 
-    Improved Enterprise Monorepo Pattern
 
-    Angular 16
 
-    Signals
+Nx
 
-    Route-based Inputs
+Nx Generators
 
-    Standalone APIs
+Improved Enterprise Monorepo Pattern
 
-    Facade Pattern
+Angular 16
 
-    OnPush
+Signals
 
-    PrimeNG
+Route-based Inputs
+
+Standalone APIs
+
+Facade Pattern
+
+OnPush
+
+PrimeNG
 
 If you are not familiar with Nx and the Enterprise Monorepo Pattern, you can watch this video explaining it using this repo: 
 https://www.youtube.com/watch?v=FtmtNP6qNis&ab_channel=StefanHaas
@@ -39,6 +52,12 @@ best alternative to ngx translate which is not being maintained anymore. Therefo
 For the most part it’s fine but I wouldn’t call it enterprise. The main reason is you have no error management. It’s pretty but fragile.
 
 Also what you are referring as the facade pattern is the repository pattern.
+
+
+
+Angular Signals Demo App
+Minimal app showcasing basic usage of signals and the rxjs interop with a type ahead search example
+https://github.com/HaasStefan/pokemon-search
 
 
 
