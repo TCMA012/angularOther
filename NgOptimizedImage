@@ -1,0 +1,11 @@
+  imports: [
+    NgOptimizedImage
+  ],
+
+
+
+angular NgOptimizedImage
+
+https://netbasal.com/using-angular-ngoptimizedimage-to-implement-image-loading-best-practices-e20a69d71ea3
+https://gist.githubusercontent.com/NetanelBasal/1915db4b5ba5317454c02156d84fbbf0/raw/020fe09020d5a7e23fe32d829d48d40a738b763b/NgOptimizedImage-1.ts
+https://gist.githubusercontent.com/NetanelBasal/9bfda727827d2206a87b55b7acee43bd/raw/31c72199a8267920b67d3544376d351d6f410296/NgOptimizedImage-2.html

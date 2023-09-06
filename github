@@ -4,14 +4,59 @@ https://github.com/AhsanAyaz/angular-deploy-gh-pages-actions
 https://ahsanayaz.github.io/angular-deploy-gh-pages-actions/
 
 
+BioPhoton
+a Movies App built using Angular and RxAngular.
+As data source the The Movie Database (TMDB) API is used.
+nx
+https://tastejs.com/movies/
+https://github.com/tastejs/angular-movies
+16.2.0
+rxjs": "^7.8.1
+
+https://www.youtube.com/watch?v=FtmtNP6qNis&t=196s
+https://github.com/HaasStefan/ng-journal-insurance-portal
+16.0.0
+rxjs": "~7.8.0
+
+
 The Angular Year Calendar library depends on date-fns and @angular/cdk
 https://github.com/IOMechs/angular-year-calendar
 https://iomechs.github.io/angular-year-calendar/demo/
 
 
+A collection of Angular packages
+Nx
+https://github.com/DmitryEfimenko/ngspot
+https://github.com/DmitryEfimenko/ngspot/tree/main/packages/expandable-input/package
 
-https://github.com/trungk18/angular-spotify
-Spotify client built with Angular 12, Nx Workspace, ngrx, TailwindCSS and ng-zorro 
+
 
 https://github.com/katesky/functional-router-guards
 15.2.0
+
+
+
+
+https://github.com/trungk18/angular-spotify
+Spotify client built with Angular, Nx Workspace, ngrx, TailwindCSS and ng-zorro 
+rxjs": "6.6.6"
+
+
+
+
+Angular Real-World App
+
+Angular CLI Seed Project
+
+NgRx Example App
+
+Angular Firebase App
+
+
+
+https://github.com/FiniteLooper/LyricConverter
+
+https://github.com/Chocobozzz/PeerTube/tree/develop/client
+https://joinpeertube.org/
+
+
