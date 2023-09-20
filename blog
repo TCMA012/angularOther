@@ -1,0 +1,19 @@
+https://medium.com/angularwave/the-magic-of-contentchild-viewchild-and-template-references-d1cbf7f819c4
+View is template of your component. This means it doesn’t exist in directives.
+Content is what your component (or directive) is wrapped around.
+
+https://medium.com/its-tinkoff/dom-di-and-view-the-trees-of-angular-2ef959e7fafd
+https://indepth.dev/posts/1479/tracking-user-interaction-area
+Alex Inkin
+I work on Taiga UI at Tinkoff 
+
+https://georghoeller.dev/blog/
+https://georghoeller.dev/angular-behaviorsubject/
+https://stackblitz.com/edit/angular-9v1yua?file=src%2Fmain.ts&ref=georghoeller.dev
+https://georghoeller.dev/angular-material-dynamic-dialog-component/
+https://stackblitz.com/edit/dynamicmaterialdialog?ref=georghoeller.dev
+
+
+https://www.syncfusion.com/blogs/post/angular-multi-parent-hierarchical-tree-diagram.aspx
+The Syncfusion Angular Diagram Library
+Aravind Ravi 
