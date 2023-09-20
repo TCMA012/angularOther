@@ -1,0 +1,37 @@
+fakeStoreApi angular github
+https://github.com/topics/fakestoreapi
+
+
+
+This is a full-stack e-commerce app built with Angular, Angular Material, Tailwind, Node.js, Stripe, and the Fake-store API. The app allows users to browse products, search by categories, sort by ascending or descending order, and specify the number of products to display. It also includes an integrated Stripe payment gateway, allowing customers to securely purchase products using their credit or debit card.
+
+https://github.com/Omolara5861/stripe-store/tree/dev
+This branch is 10 commits ahead of master. 
+15.2.0
+stripe/stripe-js": "^1.35.0
+tailwindcss": "^3.2.7
+BehaviorSubject
+
+https://github.com/Omolara5861/stripe-store
+https://github.com/Omolara5861/stripe-store/blob/master/client/package.json
+15.2.0
+https://stripestore.vercel.app/
+
+
+
+
+https://github.com/mathisvester/shopping-cart main
+15.2.6
+ionic/angular": "^7.0.5
+ngrx/store": "^15.4.0
+
+
+???
+https://github.com/elma7y/sameh-ecommerce
+14.2.3
+sameh-ecommerce.vercel.app
+need login
+
+https://github.com/andersonprovox/studycase-wbstore-angular/
+14.2.2
+?
