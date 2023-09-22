@@ -5,3 +5,25 @@ https://getbootstrap.com/docs/5.2/getting-started/introduction/
  
 Part 4 - Registration Form & Service Methods
 https://jasonwatmore.com/angular-15-free-course-4-registration-form-service-methods
+
+
+
+
+
+
+
+https://jasonwatmore.com/post/2022/11/15/angular-14-jwt-authentication-example-tutorial
+
+
+
+https://jasonwatmore.com/fake-backend-ts
+// provider used to create fake backend located in the app module (/src/app/app.module.ts)
+
+https://github.com/cornflourblue/angular-14-jwt-authentication-example
+https://github.com/cornflourblue/node-jwt-authentication-api
+
+
+
+
+https://jasonwatmore.com/post/2022/11/17/angular-14-communicating-between-components-with-rxjs-observable-subject
+
