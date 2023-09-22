@@ -1,0 +1,7 @@
+Angular 15/16 Free Course #1 - Create Base Project Structure
+https://jasonwatmore.com/angular-15-free-course-1-create-base-project-structure
+
+https://getbootstrap.com/docs/5.2/getting-started/introduction/
+ 
+Part 4 - Registration Form & Service Methods
+https://jasonwatmore.com/angular-15-free-course-4-registration-form-service-methods
