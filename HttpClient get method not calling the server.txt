@@ -1,0 +1,23 @@
+angular HttpClient get method not calling the server
+angular HttpClient.get() no response 
+
+Angular httpClient by design returns a cold observable, which means that until you subscribe for it, no data will pass trough the stream and each new subscription will return brand new data from the endpoint, so that is the reason that there are no calls to the desired endpoint
+
+
+private url = 'http://localhost:7002/myproj/api/domain';
+
+callServer (): Observable<string> {
+    console.log("in callServer()");
+    return this.http.get<string>(this.url);
+}
+
+
+
+must subscribe for the http response 
+callServer().subscribe(x=> console.log(x)).
+
+=
+
+getHeroes (): Observable<Hero[]> {
+  return this.http.get<Hero[]>(this.heroesUrl)
+}
