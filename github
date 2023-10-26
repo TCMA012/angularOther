@@ -60,3 +60,19 @@ https://github.com/Chocobozzz/PeerTube/tree/develop/client
 https://joinpeertube.org/
 
 
+
+https://github.com/GregorBiswanger/NgMyBroker
+https://gregorbiswanger.github.io/MyBroker/
+native JavaScript written Progressive Web App MyBroker should be refactored to Angular
+
+This Node.js based REST Web-Service delivers dummy stock data.
+https://stockplaceholder.herokuapp.com/api/stocks
+https://stockplaceholder.herokuapp.com/api-docs/
+
+
+
+https://github.com/GregorBiswanger/rxjs-fruits
+RxJS-fruits is a game for learning RxJS (Reactive Extensions for JavaScript).
+rxjs-fruits.com
+
+
