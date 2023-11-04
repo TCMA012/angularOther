@@ -1,1 +1,7 @@
 https://medium.com/@eugeniyoz/new-equality-check-function-in-angular-signals-03449c45a0a6
+
+Angular Signals enforce Immutability in v17
+https://www.youtube.com/watch?v=QOiWLGV9Yrg
+Rainer Hahnekamp
+make angular immutable by default as they are moving to FP
+return { ...value, clicked: true } from the update

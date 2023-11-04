@@ -1,0 +1,83 @@
+Angular Global Summit
+https://events.geekle.us/angular23v2/
+
+angular  Signals Under the Hood Rainer Hahnekamp
+
+00:18:53 Time to close the feature gap - by Francesco Leardini
+00:51:56 Maths or magic? End-to-end encryption explained like I'm five - by Paolo Insogna
+01:24:57 2FA 2Furious - Implementing 2FA in Node.js - by Nathaniel Okenwa
+02:05:38 The missing chapter in your CI playbook: database guardrails - by Adam Furmanek
+02:42:48 Q&A Session with Francesco Leardini and Adam Furmanek
+03:09:16 The era of Meta Frameworks has began! - by Nir Kaufman
+03:57:56 PWA Performance Optimization Techniques - by Deepa Subramanian
+04:22:56 Fastify & OpenAPI: Creating Efficient APIs in Node.js - by Julián Duque
+04:53:56 I Don’t Need No Stinkin’ Framework: Mastering Shadow DOM - by Martine Dowden
+05:12:32 Break
+05:23:53 Cypress or the end of laborious end-to-end testing - by Alain Chautard
+05:51:42 A Beginner's Guide to Wrangling Asynchronicity in JavaScript - by Raymond Camden
+06:25:35 Q&A Session with Alain Chautard and Raymond Camden
+
+speakers
+Senior Track
+18 October
+
+Rainer Hahnekamp
+
+Trainer & Consultant
+
+"Signals Under the Hood"
+Share
+
+Christian Lüdemann
+
+Angular Consultant and Trainer
+
+Ludemann Consulting APS
+
+"The Stages Of An Angular Architecture With Nx"
+Share
+
+Mateusz Łędzwicz
+
+Principal Angular Consultant and Trainer
+
+"To module or not to module, that is the question!"
+Share
+
+Marcell Kiss
+
+Frontend Architect, Trainer
+
+Marcell.tech
+
+"Internationalization is easy! - Angular holds your back"
+Share
+
+Brecht Billiet
+
+Mentor
+
+Simplified Courses
+
+"Unleashing the Power of Template-Driven Forms with Signals"
+Share
+
+Muhammad Ahsan Ayaz
+
+Software Architect & Head Instructor - JavaScript
+
+"Mastering the Monorepo: How NX Schematics Transformed Our 80+ Angular Projects!"
+Share
+
+Manfred Steyer
+
+Trainer, Consultant, Programming Architect
+
+"Micro Frontends with Modern Angular"
+Share
+
+Jesus Cuesta
+
+Senior Specialist Lead / Senior Manager
+
+"Evolve your architecture to Component First architecture with Standalone Components"
