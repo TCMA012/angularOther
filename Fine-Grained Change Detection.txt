@@ -1,0 +1,5 @@
+Fine-Grained Change Detection
+https://dev.to/this-is-angular/on-the-road-to-fine-grained-change-detection-2a14
+https://github.com/angular/angular/discussions/49684
+
+https://dev.to/this-is-angular/how-angular-dependency-injection-works-under-the-hood-mln
