@@ -1,0 +1,28 @@
+Armen Vardanyan
+ArmenVardanyan
+http://armenvardanyan.dev/
+my first ever, titled "Modern Angular", published with Manning Publications.
+
+The book covers everything that is new beginning from versions 12-13, standalone, SSR, signals (of course!), RxJS-interop, the new template syntax, and much more. The book follows along the development of a brand-new project, written with the best new approaches, but also has sections on how to migrate existing codebases.
+
+The book is now in Early Access, with the first three chapters already published (covering standalone and the inject function), available at Manning
+
+https://github.com/Armenvardanyan95/modern-angular-hrms
+
+https://www.manning.com/books/modern-angular
+Modern Angular
+Armen Vardanyan
+MEAP began November 2023 
+Publication in Spring 2024 
+components, dependency injection, RxJS, Signals, server-side rendering, and more—all through building a complete enterprise-grade HR management system.
+
+
+
+I look forward to reading it!
+I like to suggest two branches at github:
+Angular 16.1.0 which is your main now and 17 for the latest feature - new built-in syntax for control flow and deferrable views, etc.
+
+
+Thanks for your interest!
+
+Your idea about version-based branches is interesting, I will explore it, thanks! Currently we are making branches for each chapter, and in the final chapter we upgrade to 17 and cover the new syntax, so we'll see what we will find most suitable for readers
