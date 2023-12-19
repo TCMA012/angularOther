@@ -1,0 +1,3 @@
+OZ
+https://medium.com/@eugeniyoz/angular-signals-observables-differences-4a0aa7a13bc
+https://medium.com/@eugeniyoz/angular-change-detection-today-and-tomorrow-b9c64bd294f8
