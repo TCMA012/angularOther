@@ -1,0 +1,4 @@
+https://github.com/railsstudent/ng-online-store-demo-v17
+https://stackblitz.com/edit/stackblitz-starters-tzashk?file=src%2Fmain.ts
+https://dev.to/railsstudent/experience-the-magic-of-the-new-control-flow-in-angular-17-30le
+Connie Leung
