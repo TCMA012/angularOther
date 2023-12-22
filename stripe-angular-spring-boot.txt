@@ -1,0 +1,2 @@
+https://dev.to/zabdieljr/integrating-stripe-with-spring-boot-and-angular-5d9l
+https://hamdi-bouallague.medium.com/online-payment-using-stripe-angular-and-spring-boot-bf576ad177b2
