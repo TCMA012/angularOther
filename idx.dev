@@ -1,0 +1,7 @@
+https://idx.dev/
+Project IDX: An AI-assisted, Full-Stack App Development Environment
+Project IDX - Google's new browser-based code environment. It has AI assistance for code-generation, code-completion, and explaining code built-in. It also supports modern JavaScript frameworks.
+
+IDX is based on VSCode, and the vision is a full fidelity local environment with AI smarts, quick starting points for apps using popular frameworks, a Linux-based VM in a data center near you, and quick deploys to Firebase Hosting and (soon) Android + iOS simulators in-browser.
+
+Project IDX allows developers to work from anywhere, on any device, with the full fidelity of local development. Every workspace has the full capabilities of a Linux-based VM, paired with universal access hosted in the cloud.
