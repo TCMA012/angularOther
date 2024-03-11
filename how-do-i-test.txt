@@ -1,0 +1,2 @@
+https://dev.to/this-is-angular/how-do-i-test-signals-signal-computed-effect-f24
+https://github.com/rainerhahnekamp/how-do-i-test

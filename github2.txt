@@ -1,0 +1,54 @@
+Muhammad Ahsan Ayaz 
+AhsanAyaz
+
+
+
+https://github.com/AhsanAyaz/ng-comp-inp-binding
+https://ahsanayaz.github.io/ng-comp-inp-binding/#/
+eCommerce
+
+
+
+https://github.com/AhsanAyaz/code-with-ahsan
+
+
+
+
+https://github.com/PacktPublishing/Angular-Cookbook-2E
+
+
+
+
+This GitHub action will handle the deploy process of your angular application to GitHub Pages. You can configure what folder will be deployed once the build is created. Also, you can specify which branch to deploy to.
+https://github.com/AhsanAyaz/angular-deploy-gh-pages-actions
+https://ahsanayaz.github.io/angular-deploy-gh-pages-actions/
+https://github.com/features/actions
+https://pages.github.com/
+
+
+
+
+https://github.com/AhsanAyaz/ng-signals-input
+
+https://github.com/AhsanAyaz/ng-signal-queries
+
+
+
+Forked from saadpasta/developerFolio
+https://github.com/AhsanAyaz/developerFolio
+
+
+
+
+https://github.com/IOMechs/angular-year-calendar
+https://iomechs.github.io/angular-year-calendar
+v15
+
+
+
+IP to Location Details
+https://github.com/AhsanAyaz/geoip
+
+
+
+https://github.com/AhsanAyaz/fun-with-javascript

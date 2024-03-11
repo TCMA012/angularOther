@@ -1,0 +1,16 @@
+Angular 17 Tutorial with Live Production-Grade Project and Application Series
+jsgigs
+https://www.youtube.com/playlist?list=PL3EibBwUnE37aZ937p2L2VoozXUKcsI76
+AgGrid Integration: Efficient Data Handling for Your Application
+Implement realistic mocking strategies using json-server and Mockoon.
+https://www.youtube.com/@jsgigs4909
+
+
+https://github.com/deepakjha14/yt-students-details-app
+17.0.0
+"@ng-bootstrap/ng-bootstrap": "^16.0.0",
+"@popperjs/core": "^2.11.8",
+"ag-grid-angular": "^31.0.0",
+"bootstrap": "^5.3.2
+
+India
