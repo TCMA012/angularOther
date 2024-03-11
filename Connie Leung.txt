@@ -1,0 +1,34 @@
+Connie Leung
+
+https://dev.to/railsstudent/analyze-ways-to-retrieve-data-with-signals-and-httpclient-in-angular-2je7
+The demo passes a 
+signal to 
+Pokemon API to retrieve Pikachu and uses different patterns to display the results. 
+The data retrieval patterns are:
+
+Signal + HttpClient + AsyncPipe
+Signal + make HttpClient call in effect
+Signal + HttpClient + toObservable + toSignal + SwitchMap
+Signal + computedAsync
+Signal + computedAsync + enable requiredSync to emit sync data
+
+Install ngxtension
+
+
+https://github.com/railsstudent/ng-signal-data-retrieval
+https://railsstudent.github.io/ng-signal-data-retrieval
+https://stackblitz.com/edit/stackblitz-starters-mab3qg?file=src%2Fmain.ts
+
+
+
+https://dev.to/railsstudent/model-inputs-signal-api-that-is-missing-in-2-way-binding-2a13
+https://github.com/railsstudent/ng-model-inputs-demo
+https://stackblitz.com/edit/stackblitz-starters-gmrhas?file=src%2Fmain.ts
+
+
+
+https://dev.to/railsstudent/signal-queries-in-angular-what-can-i-do-with-them-4ip1
+
+https://github.com/railsstudent/ng-signal-queries-demo
+https://railsstudent.github.io/ng-signal-queries-demo/
+https://stackblitz.com/edit/angular-model-inputs-yqntwn?file=src%2Fmain.ts

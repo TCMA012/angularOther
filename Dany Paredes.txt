@@ -1,0 +1,16 @@
+Dany Paredes
+https://dev.to/danywalls/learn-route-parameters-in-angular-with-example-2oh4
+https://fakestoreapi.com/docs
+https://fakestoreapi.com/products
+
+https://github.com/danywalls/learn-route-parameters
+
+http://localhost:4200/products/1
+
+
+
+https://www.danywalls.com/build-navigation-in-angular-with-router-routerlink-and-kendo-ui
+
+https://github.com/danywalls/play-with-angular-router
+
+https://www.telerik.com/kendo-angular-ui/components/navigation/
