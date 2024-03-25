@@ -1,0 +1,5 @@
+https://www.youtube.com/watch?v=tAKJV060Sxw
+https://github.com/lionashu/Angular17-Ecommerce-Application-using-JSON-Server
+There is a missing step in your video. You haven't shown the <router-outlet> to be placed in home component. Also, we need to put <app-header></app-header> in the home component alongwith <router-outlet></router-outlet>. Then the respective compoents will be displayed. :)
+
+
