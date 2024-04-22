@@ -1,0 +1,3 @@
+Esther White {{ MonaCodeLisa }}
+https://www.youtube.com/watch?v=JYbn1Q25EEc
+https://github.com/monacodelisa/Angular-Theming-Signals/tree/main/angular-v17-theme-native-signals
